@@ -12,7 +12,9 @@
 </head>
 <body>
     <?php
-        echo $paragrafo
+        echo "<p>$paragrafo</p>";
+        $lunghezza = strlen($paragrafo);
+        echo "<p>Lunghezza: $lunghezza caratteri</p>";
     ?>
 </body>
 </html>
